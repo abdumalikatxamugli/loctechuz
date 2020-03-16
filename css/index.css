@@ -59,3 +59,18 @@
 }
 
 /* ---End Products--- */
+
+@media(min-height:700px){
+    .products .products-bg {
+        height: 700px;
+    }
+}
+@media(min-width:1400px){
+    .products .item .img img{
+        width: 80%;
+       margin: 0 auto;
+    }
+    .products .item .content{
+        margin: 0 100px;
+    }
+}

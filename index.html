@@ -12,10 +12,91 @@
 
 <body>
     <!-- Header -->
-    <!-- end Header -->
+    <div class="topHeader">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="phones">
+                        <div class="phone">
+                            <img src="assets/icons/phone.svg" alt="">+998 99 797 79-79</div>
+                            <div class="phone">
+                                <!-- <img src="assets/images/icons/phone.svg" alt=""> -->+998 99 797 79-79</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="langAndSearch">
+                                <div class="search">
+                                    <img src="assets/images/icons/search.svg" alt="search the site loctech.uz">
+                                </div>
+                                <div class="lang">
+                                    <div class="mainLang">
+                                        ru
+                                    </div>
+                                    <ul class="langSwitcher">
+                                        <li>uz</li>
+                                        <li>en</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navBar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="navs">
+                                <div class="nav">Home</div>
+                                <div class="nav">Products</div>
+                                <div class="nav">Services</div>
+                                <div class="nav">Contacts</div>
+                                <div class="nav">About us</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end Header -->
 
-    <!-- MainSlider  -->
-    <!-- end MainSlider -->
+            <!-- MainSlider  -->
+            <section class="mainSlider">
+
+                <div class="mainSlider owl-carousel">
+
+                    <div class="item">
+                        <div class="overlay"></div>
+                        <div class="content">
+                            <h2>NEST IS THE BEST ONE</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, qui, iure. Ipsum minima quo provident sed aut, vitae corporis quam! Accusamus tempore eum praesentium tenetur iure distinctio rem quae quasi.</p>
+                            <button>
+                                More
+                            </button>
+                        </div>      
+                    </div>
+                    <div class="item">
+                        <div class="overlay"></div>
+                        <div class="content">
+                            <h2>NEST IS THE BEST ONE</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, qui, iure. Ipsum minima quo provident sed aut, vitae corporis quam! Accusamus tempore eum praesentium tenetur iure distinctio rem quae quasi.</p>
+                            <button>
+                                More
+                            </button>
+                        </div>      
+                    </div>
+                    <div class="item">
+                        <div class="overlay"></div>
+                        <div class="content">
+                            <h2>NEST IS THE BEST ONE</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, qui, iure. Ipsum minima quo provident sed aut, vitae corporis quam! Accusamus tempore eum praesentium tenetur iure distinctio rem quae quasi.</p>
+                            <button>
+                                More
+                            </button>
+                        </div>      
+                    </div>
+                </div>
+            </section>
+  <!-- end mainSLider -->
 
     <!-- Services -->
     <!-- end Services -->
@@ -64,6 +145,31 @@
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/owl.carousel.min.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
+    <script>
+                $('.mainSlider').owlCarousel({
+                    loop:false,
+                    rewind:true,
+                    autoplay:false,
+                    margin:15,
+                    nav:false,
+                    dots: false,
+                    responsive:{
+                        0:{
+                            items:1
+                        },
+                        600:{
+                            items:1
+                        },
+                        768:{
+                            items:1
+                        },
+                        1000:{
+                            items:1
+                        }
+                    }
+                });
+
+            </script>
 </body>
 
 </html>

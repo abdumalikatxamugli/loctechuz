@@ -1,6 +1,128 @@
 :root {
     --ourYellow: #FFE400;
 }
+/*TopHeader*/
+
+.topHeader{
+    background-color: #081e29;
+    color: white;
+    padding:12px 0;
+}
+.phones{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    position: relative;
+    height: 100%;
+   
+    align-items: center;
+}
+.phone:nth-child(1){
+        margin-right: 15px
+}
+
+.phone img{
+    height: 18px;
+    width: 18px;
+    margin-right: 5px;
+}
+.langAndSearch{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    width:100%;
+    align-items: right;
+    justify-content: flex-end;
+    align-items: center;
+}
+.langSwitcher{
+    display: none;
+}
+.search img{
+    width:20px;
+    height: 20px;
+}
+.mainLang{
+    margin-left: 18px;
+    background-color: white;
+    padding: 0 15px;
+    color: black;
+    border-radius: 15px;
+    font-size: 18px;
+    font-family: sans-serif;
+    cursor:pointer;
+}
+
+/*navbar*/
+.navBar{
+    background-color: rgba(8,30,41,0.8);
+    position: sticky;
+    top: 0;
+}
+.navs{
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 0;
+
+}
+.nav{
+    margin-left:20px;
+    font-size:19px;
+    color:white;
+}
+.mainSlider{
+    max-width: 100vw;
+    overflow: hidden;
+}
+.mainSlider .owl-nav{
+    display: none;
+}
+.mainSlider .item{
+    position: relative;
+    height: calc(100vh - 109px);
+    background-image: url("../assets/images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.mainSlider .content{
+    padding: 0 30%;
+    position: relative;
+    z-index: 1;
+}
+.mainSlider .content h2{
+    color:#ffe400;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.mainSlider .content p{
+    color:#fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.mainSlider .content button{
+    background: linear-gradient(135deg,#ffe400 50%, green );
+    color:white;
+    border:0;
+    border-radius: 15px;
+    padding:3px 15px;
+    font-size:18px;
+    outline: none !important;
+    cursor: pointer;
+}
+.mainSlider .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 0;
+}
 
 /* ---Products--- */
 .products {

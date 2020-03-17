@@ -1,6 +1,6 @@
 @font-face {
-  font-family: VogueRegular;
-  src: url(assets/fonts/Vogue-Regular.ttf);
+  font-family: ExoRegular;
+  src: url(assets/fonts/Exo2-Regular.ttf);
 }
 
 :root {
@@ -8,7 +8,7 @@
 }
 /*TopHeader*/
 *{
-    font-family: VogueRegular;
+   font-family: 'ExoRegular', sans-serif;
 }
 .topHeader{
     background-color: #081e29;

@@ -1,8 +1,15 @@
+@font-face {
+  font-family: VogueRegular;
+  src: url(assets/fonts/Vogue-Regular.ttf);
+}
+
 :root {
     --ourYellow: #FFE400;
 }
 /*TopHeader*/
-
+*{
+    font-family: VogueRegular;
+}
 .topHeader{
     background-color: #081e29;
     color: white;

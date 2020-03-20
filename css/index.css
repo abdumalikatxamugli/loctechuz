@@ -1,6 +1,10 @@
 @font-face {
   font-family: ExoRegular;
-  src: url(assets/fonts/Exo2-Regular.ttf);
+  src: url(../assets/fonts/Exo2-Regular.ttf);
+}
+@font-face {
+  font-family: ExoBold;
+  src: url(../assets/fonts/Exo2-Bold.ttf);
 }
 
 :root {
@@ -144,9 +148,7 @@ line-height: 19px;
     overflow: hidden;
 }
 
-.mainSlider .owl-nav{
-    display: none;
-}
+
 .mainSlider .imgWrapper{
     position: relative;
     height: 100%;
@@ -155,7 +157,7 @@ line-height: 19px;
     justify-content: center;
     align-items: center;
 }
-.mainSlider .owl-stage-outer .owl-nav{
+.mainSlider .owl-nav{
     /*display: none;*/
     position: absolute;
 
@@ -173,6 +175,10 @@ line-height: 19px;
     font-size: 40px;
 
     left: 2%;
+    outline:none !important;
+}
+.mainSlider .owl-nav button:hover{
+   background: transparent !important;
 }
 .mainSlider .item{
     position: relative;
@@ -359,10 +365,7 @@ line-height: 19px;
 }
 /*endServices*/
 /*footer */
-footer{
-    background-color: #081E29;
-    padding:50px 0;
-}
+
 .footerLogo{
     width:130px;
     
@@ -433,3 +436,8 @@ ul{
     }
 }
 
+footer{
+    background-color: #081E29;
+    padding:50px 0;
+    font-family: ExoBold;
+}

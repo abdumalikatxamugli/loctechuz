@@ -97,8 +97,9 @@
     margin-right: 25px;
 }
 .logo img{
-    width: 23px;
-    height: 23px;
+   /* width: 23px;
+    height: 23px;*/
+    height: 40px;
 }
 .notLogo{
     position: relative;
@@ -366,6 +367,17 @@ footer{
     width:130px;
     
 } 
+.social{
+    text-align: center;
+}
+footer .social img{
+    margin-left:9px;
+    margin-right: 9px;
+    width:25px;
+}
+footer .pages, footer .contacts{
+    padding-top:20px;
+}
 footer .logoTextSocial{
     text-align: center;
     color:white;
@@ -398,6 +410,12 @@ footer ul li a:hover{
 
 ul{
     padding:0;
+}
+.bottomFooter{
+    background-color: #071923;
+    color:white;
+    padding:10px 0;
+    text-align: center;
 }
 /*endfooter*/
 @media(min-height:700px){

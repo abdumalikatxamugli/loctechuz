@@ -357,6 +357,49 @@ line-height: 19px;
     text-decoration: none !important;
 }
 /*endServices*/
+/*footer */
+footer{
+    background-color: #081E29;
+    padding:50px 0;
+}
+.footerLogo{
+    width:130px;
+    
+} 
+footer .logoTextSocial{
+    text-align: center;
+    color:white;
+} 
+footer .description{
+    padding: 10%;
+}
+footer ul{
+    list-style: none;
+
+}
+footer ul li{
+    text-align: center;
+    margin-bottom: 10px;
+    color:white;
+}
+footer .pages li a{
+    color:white;
+    font-size:18px;
+}
+
+footer .contacts li a{
+    color:white;
+    font-size:17px;
+}
+footer ul li a:hover{
+    color:white;
+    text-decoration: none;
+}
+
+ul{
+    padding:0;
+}
+/*endfooter*/
 @media(min-height:700px){
     .products .products-bg {
         height: 700px;

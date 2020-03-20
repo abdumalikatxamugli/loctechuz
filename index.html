@@ -47,9 +47,9 @@
             <!-- end Header -->
 
             <!-- MainSlider  -->
-            <section class="mainSlider">
+            <section class="mainSliderWrapper">
 
-                <div class="mainSlider owl-carousel">
+                <div class="mainSlider owl-carousel owl-theme">
 
                    
                     <div class="item">
@@ -100,6 +100,31 @@
 		                            	</div>
 		                            </div>
 	                            </div>
+                            </div>
+                        </div>      
+                    </div>
+                    <div class="item">
+                        <div class="overlay"></div>
+                        <div class="content">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6">  
+                                        <div class="description">
+                                            <h2>SS Type Layer Chicken Cage Max</h2>
+                                            <p>Guarantee sufficient and well-distributed feed for each tier. Reasonable slope reduces the percentage of egg broken. Manure is completely removed, reducing harmful gases.</p>
+                                            <div class="moreButton">
+                                            <button>
+                                                More
+                                            </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="imgWrapper">
+                                            <img src="assets/images/element.png">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>      
                     </div>
@@ -204,6 +229,45 @@
 
 
     <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="logoTextSocial">
+                        <img src="assets/logofinal.svg" alt="logo" class="footerLogo">
+                        <div class="description">
+                           With 10 years of experience in construction, we partner with 
+                           owners and design professionals to build high-quality projects. 
+                        </div>
+                        <div class="social">
+                            <img src="assets/temporary.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                   
+                        <ul class="pages">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Products</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Contacts</a></li>
+                        </ul>
+                   
+                </div>
+                <div class="col-md-4">
+                    
+                        <ul class="contacts">
+                            <li>Mon-Fri: 8.00 - 16.00</li>
+                            <li>12 Karakamish st, M. Ulugbek district, Tashkent, Uzbekistan</li>
+                            <li><a tel="+998977770707">+99897 777 0707</a></li>
+                            <li><a mailto="loctech@gmail.com">loctech@gmail.com</a></li>
+                        </ul>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- EndFooter -->
 
     <script type="text/javascript" src="js/jquery.min.js"></script>
@@ -211,29 +275,22 @@
     <script type="text/javascript" src="js/index.js"></script>
     <script>
                 $('.mainSlider').owlCarousel({
-                    loop:false,
-                    rewind:true,
-                    autoplay:false,
-                    nav:true,
-                    dots: false,
+                    loop: true,
+                    margin: 0,
+                    dots:false,
                     navSpeed:600,
-                    smartSpeed:120,
-                    fluidSpeed:true,
-                    responsive:{
-                        0:{
-                            items:1
+                    responsive: {
+                        0: {
+                            items: 1
                         },
-                        600:{
-                            items:1
+                        600: {
+                            items: 1
                         },
-                        768:{
-                            items:1
-                        },
-                        1000:{
-                            items:1
+                        1000: {
+                            items: 1
                         }
                     }
-                });
+                })
 
             </script>
 </body>

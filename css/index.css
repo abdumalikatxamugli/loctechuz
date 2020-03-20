@@ -125,7 +125,15 @@ a:hover{
     align-items: center;
     justify-content: flex-end;
 }
-
+.notLogo .language{
+    cursor:pointer;
+}
+.notLogo .language img:nth-child(1){
+    margin-right:5px;
+}
+.notLogo .language ul{
+    display: none;
+}
 .navs {
     display: flex;
     justify-content: flex-end;
@@ -177,6 +185,10 @@ a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.mainSlider img{
+    width:unset !important;
+    max-width: 100%;
 }
 .mainSlider .owl-nav{
 
@@ -279,7 +291,11 @@ a:hover{
     background-image: url('../assets/images/products-bg.png'); 
     /*background-color: #0C131D;*/
 }
-
+.products img{
+    width:unset !important;
+    max-width: 100%;
+    max-height: 100%;
+}
 .products .products-slider .owl-dots {
     margin-top: 30px !important;
 }
@@ -366,6 +382,7 @@ a:hover{
 
 }
 
+
 .services .row {
     margin-left: -40px;
     margin-right: -40px;
@@ -382,6 +399,14 @@ a:hover{
     position: relative;
     display: inline-block;
 }
+.products h2 {
+    margin-bottom: 80px;
+    font-size: 40px;
+    position: relative;
+    display: inline-block;
+    color:var(--our);
+}
+
 
 .services h2::before {
     content: '';
@@ -569,8 +594,8 @@ a:hover{
 }
 
 .product-cards a {
-    color: #3E4149;
-    font-size: 18px;
+    color: #000;
+    font-size: 20px;
     /* padding-top: 20px; */
     text-align: center;
     position: relative;
@@ -590,7 +615,20 @@ a:hover{
    -ms-transform: translateX(-50%);
    -o-transform: translateX(-50%);
 }
+.product-cards .seeMore{
+    text-align: center;
+    margin:30px 0 0;
+}
 
+.product-cards .seeMore a{
+    color:black;
+    font-size:20px;
+    display: inline;
+    border-bottom:1px dashed black;
+}
+.product-cards .seeMore a:after{
+   display: none;
+}
 /* --- end Product-cards--- */
 
 /*--- Clients--- */
@@ -599,7 +637,7 @@ a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    padding: 20px 0;
+    padding: 22px 0;
 }
 .clients h3{
     color: white;

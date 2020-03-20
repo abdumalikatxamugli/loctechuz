@@ -1,15 +1,12 @@
 @font-face {
-<<<<<<< HEAD
+
   font-family: ExoRegular;
   src: url(../assets/fonts/Exo2-Regular.ttf);
 }
 @font-face {
   font-family: ExoBold;
   src: url(../assets/fonts/Exo2-Bold.ttf);
-=======
-    font-family: ExoRegular;
-    src: url(assets/fonts/Exo2-Regular.ttf);
->>>>>>> f8c0ad850be67792310fb44f0f1f9d12dd47923a
+
 }
 
 :root {
@@ -25,11 +22,7 @@ a:hover{
     font-family: 'ExoRegular', sans-serif;
 }
 
-.topHeader {
-    background-color: #081e29;
-    color: white;
-    padding: 12px 0;
-}
+
 
 .skew-cc {
     width: 100%;
@@ -119,17 +112,10 @@ a:hover{
     font-size: 22px;
     margin-right: 25px;
 }
-<<<<<<< HEAD
 .logo img{
    /* width: 23px;
     height: 23px;*/
     height: 40px;
-=======
-
-.logo img {
-    width: 23px;
-    height: 23px;
->>>>>>> f8c0ad850be67792310fb44f0f1f9d12dd47923a
 }
 
 .notLogo {
@@ -290,8 +276,8 @@ a:hover{
 .products {
     padding: 50px 0;
     position: relative;
-    /* background-image: url('../assets/images/productsBg.jpg'); */
-    background-color: #f4f4f4;
+    background-image: url('../assets/images/products-bg.png'); 
+    /*background-color: #0C131D;*/
 }
 
 .products .products-slider .owl-dots {
@@ -372,10 +358,8 @@ a:hover{
 /* ---End Products--- */
 /*Servies*/
 .services {
-    /* background-color: #090f17; */
+     background-color: #090f17; 
     /* background-color: #090F17; */
-    background-image: linear-gradient(rgba(9, 15, 23, .95) 60%, #0c131d);
-
     color: var(--ourYellow);
     text-align: center;
     padding: 100px 0 50px;
@@ -566,6 +550,7 @@ a:hover{
    background-size: cover;
    background-position: center center;
    padding-bottom: 50px;
+   margin-top:-20px;
 }
 .product-cards .product-card {
     text-align: center;
@@ -703,10 +688,22 @@ footer .pages li a{
     color:white;
     font-size:18px;
 }
+footer .contacts li{
+    text-align:left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+footer .contacts li img{
+    margin-right: 15px;
+    /*width: 17px;*/
+}
+
 
 footer .contacts li a{
     color:white;
     font-size:17px;
+    cursor:pointer;
 }
 footer ul li a:hover{
     color:white;

@@ -160,8 +160,12 @@ body {
     margin-left: 20px;
     font-size: 19px;
     cursor: pointer;
-    color: rgba(255, 255, 255, 0.9);
+    
 
+}
+.nav a{
+    color: rgba(255, 255, 255, 0.9);
+    outline: none !important;
 }
 
 .call {
@@ -178,7 +182,7 @@ body {
     line-height: 19px;
 }
 
-.nav:hover {
+.nav a:hover {
 
     color: rgba(255, 255, 255, 1);
 }
@@ -975,13 +979,19 @@ footer{
     font-family: ExoBold;
 
 }
+.contacts-page{
+    display: block;
+     background: linear-gradient(to right, #06193e 0%, #054b5a 100%);
 
+}
 .contacts-main{
     padding: 35px 0;
-
+    
 }
 .contacts-main .contacts-map{
     position: relative;
+    border-radius: 5px;
+overflow: hidden;
 }
 .contacts-main .contacts-map iframe{
     width: 100%;
@@ -1018,6 +1028,14 @@ footer{
     color: #fff;
     padding: 15px;
     border-radius: 10px;
+}
+.contacts-main legend{
+    padding-left:15px;
+    padding-right: 15px;
+}
+.contacts-main form .btn-primary{
+    background-color: #15304c;
+    border:0;
 }
 @media(max-width:1200px) {
     .contacts-main form .form-group{
@@ -1112,4 +1130,5 @@ footer{
 .services-item img{
     max-width: 100%;
 }
+
 /*end serices*/

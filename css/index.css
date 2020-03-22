@@ -32,6 +32,7 @@ html {
 
 body {
     position: relative;
+
 }
 
 .skew-cc {
@@ -39,7 +40,7 @@ body {
     height: 100px;
     position: absolute;
     left: 0px;
-    background: linear-gradient(to right bottom, #823A9C 49%, #fff 50%), linear-gradient(-50deg, #ffffff 16px, #000 0);
+    background: linear-gradient(to right bottom, #1A253B 49%, #fff 50%), linear-gradient(-50deg, #ffffff 16px, #000 0);
 }
 
 .phones {
@@ -139,6 +140,7 @@ body {
 
 .notLogo .language {
     cursor: pointer;
+    position: relative;
 }
 
 .notLogo .language img:nth-child(1) {
@@ -146,7 +148,15 @@ body {
 }
 
 .notLogo .language ul {
-    display: none;
+    visibility: hidden;
+   position: absolute;
+    background:
+    white;
+    z-index: 3;
+    padding: 5px 10px;
+    list-style: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .navs {
@@ -191,7 +201,7 @@ body {
     /*margin-top:29.5px;*/
     max-width: 100vw;
     overflow: hidden;
-    background: linear-gradient(to right, #142850 0%, #0c7b93 100%);
+    background: linear-gradient(to right, #1A253B 0%, #164E5B 100%);
 
 }
 
@@ -304,6 +314,7 @@ body {
     width: 100%;
     background-color: rgba(33, 34, 38, 0.5);
     z-index: 0;
+    top: 0;
 }
 
 /* ---Products--- */
@@ -389,11 +400,12 @@ body {
     /*padding-left: 30px;*/
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .products .item .img img {
-    height: 450px;
-    object-fit: cover;
+    /*height: 450px;*/
+    /*object-fit: cover;*/
 }
 
 /* ---End Products--- */
@@ -755,6 +767,7 @@ footer .social img {
     margin-left: 9px;
     margin-right: 9px;
     width: 25px;
+    
 }
 
 footer .pages,
@@ -1061,7 +1074,9 @@ overflow: hidden;
     text-decoration: none !important;
 
 }
-    
+.products img{
+    max-width: 100%;
+}
 /*end*/
 
 /*services*/
@@ -1132,3 +1147,4 @@ overflow: hidden;
 }
 
 /*end serices*/
+

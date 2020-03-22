@@ -1,3 +1,4 @@
+
 $('.products-slider').owlCarousel({
     loop: true,
     margin: 10,
@@ -27,6 +28,9 @@ $('.clients-slider').owlCarousel({
         600: {
             items: 1
         },
+        768:{
+            items:5
+        },
         1000: {
             items: 6
         }
@@ -55,3 +59,22 @@ myVideoPlay.addEventListener("click", () => {
     myVideoPlay.style.opacity = '0';
 })
 // --- end Video player---
+
+
+// menu
+$(".menuTrigger").click(function(){
+    $("body").css("height","100vh");
+    $("body").css("overflow","hidden");
+    $(".mobMenu").removeClass("inactiveMob");
+    $(".mobUnderlay").css("display","block");
+})
+$(".mobUnderlay").click(function(){
+     $("body").css("height","unset");
+      $("body").css("overflow","unset");
+    $(".mobMenu").addClass("inactiveMob");
+    $(".mobUnderlay").css("display","none");
+})
+
+$(".language").click(function(){
+    $(".langList").css("visibility","visible");
+})

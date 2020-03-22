@@ -146,7 +146,7 @@ body {
 }
 
 .notLogo .language ul {
-    visibility: hidden;
+    display: none;
    position: absolute;
     background:
     white;

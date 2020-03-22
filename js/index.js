@@ -76,5 +76,5 @@ $(".mobUnderlay").click(function(){
 })
 
 $(".language").click(function(){
-    $(".langList").css("visibility","visible");
+    $(".langList").fadeToggle();
 })

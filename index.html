@@ -4,9 +4,10 @@
 <head>
     <title>Loctech.uz | Local Technologies</title>
     <meta charset="utf-8">
-    <meta property="og:title" content="Local Technologies Ltd.">
-    <meta property="og:description" content="Offering you high quality.">
-    <meta property="og:image" content="https://unsplash.com/photos/QC1oHW5JVu4">
+    <meta property="og:title" content="Loctech Ltd.">
+    <meta property="og:description" content="Компания Loctech, основанная в 2012 году, является одной из первых компаний в Средней Азии, предлагающей автоматизированные решения для птицеводства.">
+    <meta property="og:image" content="assets/logosocial.jpg">
+    <meta property="og:url" content="http://test.loctech.uz/index.html">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
     <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
@@ -23,15 +24,15 @@
                 <div class="col-md-8">
                     <div class="logoNav">
                         <div class="logo">
-                            <div>
-
+                            <a href="index.html">
+                                
                                 <img src="assets/logomy.svg">
-                            </div>
+                            </a>
                         </div>
                         <div class="navs">
-                            <div class="nav">Товары</div>
-                            <div class="nav">Услуги</div>
-                            <div class="nav">Контакты</div>
+                            <div class="nav"><a href="products.html">Товары</a></div>
+                            <div class="nav"><a href="services.html">Услуги</a></div>
+                            <div class="nav"><a href="contacts.html">Контакты</a></div>
                         </div>
                     </div>
                 </div>
@@ -400,25 +401,30 @@
     <script type="text/javascript" src="js/owl.carousel.min.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <script>
-        $('.mainSlider').owlCarousel({
-            loop: true,
-            margin: 0,
-            nav: true,
-            dots: false,
-            navSpeed: 600,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 1
-                },
-                1000: {
-                    items: 1
-                }
-            }
-        })
-    </script>
+
+                $('.mainSlider').owlCarousel({
+                    loop: true,
+                    autoplay:true,
+                    autoplaySpeed:600,
+                    autoplayTimeout:4000,
+                    margin: 0,
+                    nav:true,
+                    dots:false,
+                    navSpeed:600,
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                        600: {
+                            items: 1
+                        },
+                        1000: {
+                            items: 1
+                        }
+                    }
+                })
+
+            </script>
 
 </body>
 

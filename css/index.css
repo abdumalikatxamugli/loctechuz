@@ -17,7 +17,9 @@
 a:hover {
     text-decoration: none;
 }
-
+/*img{
+    max-width: 100%;
+}*/
 
 /*TopHeader*/
 * {
@@ -158,8 +160,12 @@ body {
     margin-left: 20px;
     font-size: 19px;
     cursor: pointer;
-    color: rgba(255, 255, 255, 0.9);
+    
 
+}
+.nav a{
+    color: rgba(255, 255, 255, 0.9);
+    outline: none !important;
 }
 
 .call {
@@ -176,7 +182,7 @@ body {
     line-height: 19px;
 }
 
-.nav:hover {
+.nav a:hover {
 
     color: rgba(255, 255, 255, 1);
 }
@@ -821,7 +827,8 @@ ul {
 /* ---Products page--- */
 
 .products-page {
-    background-image: linear-gradient(rgba(12, 29, 44, 1), #081E29);
+   background: linear-gradient(to right, #06193e 0%, #054b5a 100%);
+   padding:50px 0;
 }
 
 .products-page .nav {
@@ -841,14 +848,14 @@ ul {
 
 .products-page .nav .nav-link:hover {
     color: var(--ourYellow);
-    text-decoration: underline;
+    /*text-decoration: underline;*/
 }
 
 .products-page .nav .nav-link.active, .products-page .nav .dropdown .nav-link.active {
     color: var(--ourYellow);
     text-decoration: underline;
     background-color: unset;
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
 
 .products-page .nav .dropdown .nav-link {
@@ -860,7 +867,7 @@ ul {
     color: var(--ourYellow);
     text-decoration: underline;
     background-color: unset;
-    font-weight: bold;
+    
 }
 
 .products-page .nav .dropdown .dropdown-menu {
@@ -962,4 +969,166 @@ ul {
         position: absolute;
         right: 15%;
     }
+
+
 }
+
+footer{
+    background-color: #081E29;
+    padding:50px 0;
+    font-family: ExoBold;
+
+}
+.contacts-page{
+    display: block;
+     background: linear-gradient(to right, #06193e 0%, #054b5a 100%);
+
+}
+.contacts-main{
+    padding: 35px 0;
+    
+}
+.contacts-main .contacts-map{
+    position: relative;
+    border-radius: 5px;
+overflow: hidden;
+}
+.contacts-main .contacts-map iframe{
+    width: 100%;
+}
+.contacts-main .contacts-map .contacts{
+    position: absolute;
+    top: 90px;
+    right: 30px;
+    background-color: #1d4b62;
+    padding: 15px;
+    border-radius: 15px;
+    min-height: 150px;
+    max-width: 35%;
+}
+.contacts-main .contacts-map .contacts ul{
+    list-style: none;
+    padding-left: 35px;
+}
+.contacts-main .contacts-map .contacts ul li{
+    position: relative;
+    line-height: 1.5;
+}
+.contacts-main .contacts-map .contacts ul li a{
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+}
+.contacts-main .contacts-map .contacts ul li span{
+    position: absolute;
+    left: -25px;
+}
+.contacts-main form{
+    background-color: #1d4b62;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+}
+.contacts-main legend{
+    padding-left:15px;
+    padding-right: 15px;
+}
+.contacts-main form .btn-primary{
+    background-color: #15304c;
+    border:0;
+}
+@media(max-width:1200px) {
+    .contacts-main form .form-group{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+@media(max-width:768px) {
+    .contacts-main form .form-group{
+        display: block;
+    }
+    .contacts-main .contacts-map .contacts{
+        position: static;
+        margin: 15px 0;
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+/*additional*/
+.products-page .nav-link{
+    text-decoration: none !important;
+
+}
+    
+/*end*/
+
+/*services*/
+.services_page{
+    padding:100px 0;
+    
+    background: linear-gradient(to right, #06193e 0%, #054b5a 100%);
+}
+.services_page h1{
+    margin-bottom:100px;
+    color:var(--ourYellow);
+    position: relative;
+    display: inline-block;
+}
+
+.services_page h1::after {
+    content: '';
+    height: 4px;
+    width: 100%;
+    background-color: var(--ourYellow);
+    position: absolute;
+    bottom: -10px;
+    left: 4px;
+}
+
+.services_page h3{
+    margin-bottom:30px;
+    color:var(--ourYellow);
+    font-size:35px;
+}
+.services_page p{
+    color:white;
+    text-align: left;
+}
+.service-item{
+    margin-bottom:80px;
+    margin-bottom: 80px;
+    background-color:#054657;
+}
+.services_page .row{
+    margin-left: -30px;
+    margin-right:-30px;
+}
+.services_page .col-md-5 , .services_page .col-md-7{
+    padding-left:30px;
+    padding-right:30px;
+}
+.service-item .serv{
+    width:80%;
+    padding:20px 0;
+}
+.service-item img{
+    min-height: 275px;
+    max-height: 100%;
+    width:100%;
+    object-fit: cover;
+}
+.service-item .servimg{
+    display: block;
+    position: relative;
+    height: 100%;
+}
+.service-item a{
+    outline: none !important;
+}
+.services-item img{
+    max-width: 100%;
+}
+
+/*end serices*/

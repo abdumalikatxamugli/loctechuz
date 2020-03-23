@@ -94,8 +94,7 @@
 	}
 
 	.mobMenu{
-		display: block;
-		position: absolute;
+		position: fixed;
 		z-index: 999;
 		width:60%;
 		background-color: #0b131e;
@@ -139,9 +138,12 @@
 		width:100vw;
 		overflow-x: hidden;	
 	}
+	.clients .owl-nav{
+		display: none;
+	}
 }
 @media (max-width: 768px){
-
+	
 	.mainSlider .item{
 		height: unset;
 		padding:50px 0;

@@ -974,6 +974,9 @@ ul {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+.products-page .smallcard .mycard p a{
+    color: white;
+}
 
 /* ---end Products page--- */
 

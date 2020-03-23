@@ -96,18 +96,18 @@
 	.mobMenu{
 		position: fixed;
 		z-index: 999;
-		width:60%;
+		width:80%;
 		background-color: #0b131e;
 		color: white;
 		height: 100%;
 		right:0;
 		padding:20px 30px;
 		transition:.5s;
-
+		
 	}
 
 	.inactiveMob{
-		right:-60%;
+		right:-100%;
 
 	}
 	.mobMenu .lang span{

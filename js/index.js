@@ -26,7 +26,7 @@ $('.clients-slider').owlCarousel({
             items: 1
         },
         600: {
-            items: 1
+            items: 3
         },
         768: {
             items: 4
@@ -54,7 +54,7 @@ $('.inner-slider').owlCarousel({
 const myVideo = document.getElementById("video");
 const myVideoPlay = document.querySelector(".video-play");
 
-myVideo.addEventListener("click", () => {
+myVideo ? myVideo.addEventListener("click", () => {
     if (myVideo.paused) {
         myVideo.setAttribute("controls", "controls");
         myVideoPlay.style.visibility = 'hidden';
@@ -63,14 +63,14 @@ myVideo.addEventListener("click", () => {
     else {
         myVideo.setAttribute("controls", "controls");
     }
-})
+}) : null;
 
-myVideoPlay.addEventListener("click", () => {
+myVideoPlay ? myVideoPlay.addEventListener("click", () => {
     myVideo.setAttribute("controls", "controls");
     myVideo.play();
     myVideoPlay.style.visibility = 'hidden';
     myVideoPlay.style.opacity = '0';
-})
+}) : null
 // --- end Video player---
 
 

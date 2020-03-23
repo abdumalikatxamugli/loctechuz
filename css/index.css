@@ -543,7 +543,7 @@ body {
     height: 6px;
     border-radius: 0;
     overflow: visible;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     -ms-border-radius: 0;
@@ -950,7 +950,7 @@ ul {
 }
 
 .products-page .longcard .content p,
-.products-page .smallcard .mycard p a {
+.products-page .smallcard .mycard p a.content  {
     color: white;
     font-size: 18px;
 }
@@ -977,37 +977,6 @@ ul {
 
 /* ---end Products page--- */
 
-@media(min-height:700px) {
-    .products .products-bg {
-        height: 700px;
-    }
-}
-
-@media(min-width:1400px) {
-    .products .item .img img {
-        width: 80%;
-        /*margin: 0 auto;*/
-    }
-
-    .skills .about-us {
-        display: flex;
-        flex-flow: column;
-        justify-content: center;
-        padding: 20px 100px;
-    }
-
-    .mainSlider .owl-nav .owl-prev {
-        position: absolute;
-        left: 15%;
-    }
-
-    .mainSlider .owl-nav .owl-next {
-        position: absolute;
-        right: 15%;
-    }
-
-
-}
 
 footer {
     background-color: #081E29;
@@ -1086,26 +1055,6 @@ footer {
     border: 0;
 }
 
-@media(max-width:1200px) {
-    .contacts-main form .form-group {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-}
-
-@media(max-width:768px) {
-    .contacts-main form .form-group {
-        display: block;
-    }
-
-    .contacts-main .contacts-map .contacts {
-        position: static;
-        margin: 15px 0;
-        width: 100%;
-        max-width: 100%;
-    }
-}
 
 /*additional*/
 .products-page .nav-link {
@@ -1221,37 +1170,37 @@ footer {
     justify-content: center;
 }
 
-.content .description {
+.content .desc {
     padding: 30px 0;
     text-align: center;
 }
 
-.content .description p {
+.content .desc p {
     font-size: 18px;
     text-align: left;
 }
 
-.content .description table{
+.content .desc table{
     float: left;
     margin-right: 30px;
     margin-bottom: 30px;
 }
-.content .description table td{
+.content .desc table td{
     border: 1px solid #e9e9e9;
 }
-.content .description table tr:first-child {
+.content .desc table tr:first-child {
     color: white;
     background-color: rgba(12, 29, 44, 1);
 }
-.content .description table td {
+.content .desc table td {
     padding: 20px;
 }
 
-.content .description h1,
-.content .description h2,
-.content .description h3,
-.content .description h4,
-.content .description h5 {
+.content .desc h1,
+.content .desc h2,
+.content .desc h3,
+.content .desc h4,
+.content .desc h5 {
     font-size: 36px;
     text-align: left;
     margin-bottom: 15px;
@@ -1261,35 +1210,35 @@ footer {
     font-weight: bolder;
 }
 
-.owl-dot:hover span,
-.owl-dot.active span {
+.content .owl-dot:hover span,
+.content .owl-dot.active span {
     background-color: #081e29;
 }
 
-.owl-dots span {
+.content .owl-dots span {
     border: 1px solid #081e29;
     background-color: unset;
     width: 12px;
     height: 12px;
 }
 
-.owl-dot:focus {
+.content .owl-dot:focus {
     outline: unset;
 }
 
-.owl-theme .owl-dots .owl-dot span {
+.content .owl-theme .owl-dots .owl-dot span {
     background-color: unset;
 }
 
-.owl-theme .owl-dots .owl-dot.active span {
+.content .owl-theme .owl-dots .owl-dot.active span {
     background-color: #081e29;
 }
 
-.owl-theme .owl-dots .owl-dot:hover span {
+.content .owl-theme .owl-dots .owl-dot:hover span {
     background-color: #081e29;
 }
 
-.owl-theme .owl-dots .owl-dot span {
+.content .owl-theme .owl-dots .owl-dot span {
     width: 12px;
     height: 12px;
 }

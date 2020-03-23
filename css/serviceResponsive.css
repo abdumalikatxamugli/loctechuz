@@ -1,0 +1,16 @@
+@media (max-width: 768px){
+	.services_page .service_item_name{
+		text-align: center;
+	}
+	.service-item .serv{
+		width:100%;
+		padding:20px 30px;
+	}
+	.services_page .service_item_name{
+		font-size: 30px;
+	}
+	.services_page p{
+		font-size: 15px;
+		text-align: center;
+	}
+}

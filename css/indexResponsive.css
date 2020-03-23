@@ -29,7 +29,22 @@
     .skills .video video {
         height: 300px;
     }
+	.mobMenu{
+		position: fixed;
+		z-index: 999;
+		width:80%;
+		background-color: #0b131e;
+		color: white;
+		height: 100%;
+		right:0;
+		padding:20px 30px;
+		transition:.5s;
+		
+	}
 
+	.inactiveMob{
+		right:-100%;
+	}
     .skills .about-us .progress {
         margin-bottom: 30px;
     }
@@ -191,6 +206,37 @@
 }
 
 @media (max-width: 768px) {
+	
+	.mobMenu ul li a{
+		color:white;
+		font-size: 20px;
+	}
+	.mobUnderlay{
+		position: absolute;
+		height: 100%;
+		width:100%;
+		z-index: 998;
+		background-color: rgba(16, 11, 33, 0.4);
+		display: none;
+	}
+	body{
+		width:100vw;
+		overflow-x: hidden;	
+	}
+	.clients .owl-nav{
+		display: none;
+	}
+}
+@media (max-width: 768px){
+	
+	.mainSlider .item{
+		height: unset;
+		padding:50px 0;
+	}
+	.mainSlider .description{
+		margin-bottom:30px;
+		padding:0;
+	}
 
     /* .mainSlider .item {
         height: unset;

@@ -20,7 +20,7 @@ $('.clients-slider').owlCarousel({
     loop: true,
     margin: 10,
     nav: true,
-    dots:false,
+    dots: false,
     responsive: {
         0: {
             items: 1
@@ -28,11 +28,24 @@ $('.clients-slider').owlCarousel({
         600: {
             items: 1
         },
-        768:{
-            items:5
+        768: {
+            items: 4
+        },
+        992: {
+            items: 5
         },
         1000: {
             items: 6
+        }
+    }
+})
+$('.inner-slider').owlCarousel({
+    loop: true,
+    margin: 10,
+    dots: true,
+    responsive: {
+        0: {
+            items: 1
         }
     }
 })
@@ -62,19 +75,19 @@ myVideoPlay.addEventListener("click", () => {
 
 
 // menu
-$(".menuTrigger").click(function(){
-    $("body").css("height","100vh");
-    $("body").css("overflow","hidden");
+$(".menuTrigger").click(function () {
+    $("body").css("height", "100vh");
+    $("body").css("overflow", "hidden");
     $(".mobMenu").removeClass("inactiveMob");
-    $(".mobUnderlay").css("display","block");
+    $(".mobUnderlay").css("display", "block");
 })
-$(".mobUnderlay").click(function(){
-     $("body").css("height","unset");
-      $("body").css("overflow","unset");
+$(".mobUnderlay").click(function () {
+    $("body").css("height", "unset");
+    $("body").css("overflow", "unset");
     $(".mobMenu").addClass("inactiveMob");
-    $(".mobUnderlay").css("display","none");
+    $(".mobUnderlay").css("display", "none");
 })
 
-$(".language").click(function(){
+$(".language").click(function () {
     $(".langList").fadeToggle();
 })

@@ -16,17 +16,36 @@
     <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/indexResponsive.css">
     <link href="https://fonts.googleapis.com/css?family=Exo+2|Josefin+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <!-- Header -->
-
-
+    <div class="mobUnderlay"></div>
+    <div class="mobMenu inactiveMob">
+        <div class="lang">
+            <span>
+                <img src="assets/images/uz.png" alt="">
+            </span>
+            <span>
+                <img src="assets/images/en.png" alt="">
+            </span>
+            <span>
+                <img src="assets/images/ru.png" alt="">
+            </span>
+        </div>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="services.html">Услуги</a></li>
+            <li><a href="contacts.html">Товары</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+    </div>
     <div class="navBar">
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-lg-8 col-md-6 col-3 ">
                     <div class="logoNav">
                         <div class="logo">
                             <a href="index.html">
@@ -41,18 +60,24 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-6 col-9 ">
                     <div class="notLogo">
                         <div class="language">
                             <img src="assets/images/ru.png" alt="">
                             <img src="assets/icons/ic_chevron_left_24px.svg" alt="">
-                            <ul>
-                                <li><a href="#">uz</a></li>
-                                <li><a href="#">en</a></li>
+                            <ul class="langList">
+                                <li><a href="#"><img src="assets/images/uz.png" alt=""></a></li>
+                                <li><a href="#"><img src="assets/images/en.png" alt=""></a></li>
                             </ul>
                         </div>
                         <div class="call">+998 98 812 0133 </div>
-
+                        <div class="menuTrigger">
+                            <div class="menu menu-1">
+                                <span class="menu-item"></span>
+                                <span class="menu-item"></span>
+                                <span class="menu-item"></span>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -60,7 +85,6 @@
         </div>
 
     </div>
-
     <!-- end Header -->
 
     <!-- Contacts -->
@@ -181,15 +205,15 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="logoTextSocial">
-                        <img src="assets/logomy.svg" alt="logo" class="footerLogo">
+                        <a href="#"><img src="assets/logomy.svg" alt="logo" class="footerLogo"></a>
                         <div class="description">
                             Обладая более чем 8-летним опытом, нам удалось стать идеальным началом для многих клиентов.
                         </div>
                         <div class="social">
-                            <img src="assets/icons/awesome-facebook.svg" alt="facebook">
-                            <img src="assets/icons/feather-instagram.svg" alt="instagram">
-                            <img src="assets/icons/awesome-youtube.svg" alt="youtube">
-                            <img src="assets/icons/awesome-telegram.svg" alt="telegram">
+                            <a href="#"><img src="assets/icons/awesome-facebook.svg" alt="facebook"></a>
+                            <a href="#"><img src="assets/icons/feather-instagram.svg" alt="instagram"></a>
+                            <a href="#"><img src="assets/icons/awesome-youtube.svg" alt="youtube"></a>
+                            <a href="#"><img src="assets/icons/awesome-telegram.svg" alt="telegram"></a>
                         </div>
                     </div>
                 </div>

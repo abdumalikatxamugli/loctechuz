@@ -9,9 +9,11 @@
         width: 80%;
         /*margin: 0 auto;*/
     }
-    .skills .about-us .progress{
+
+    .skills .about-us .progress {
         margin-bottom: 50px;
     }
+
     .skills .about-us {
         display: flex;
         flex-flow: column;
@@ -106,18 +108,22 @@
 }
 
 @media(max-width:768px) {
-    .services{
+    .services {
         padding: 50px 0;
     }
-    .services h2{
+
+    .services h2 {
         margin-bottom: 50px;
     }
+
     .seeMore {
         margin: 0;
     }
-    .products{
+
+    .products {
         padding-top: 0;
     }
+
     .content .inner-slider img {
         height: 400px;
     }
@@ -154,16 +160,18 @@
         width: 100%;
         max-width: 100%;
     }
+
 }
 
 @media(max-width:576px) {
     .clients .clients-slider .owl-prev {
         left: 0;
     }
+
     .clients .clients-slider .owl-next {
         right: 0;
     }
-    
+
     .products-page .longcard .img img {
         width: 100%;
     }

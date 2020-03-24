@@ -1,16 +1,46 @@
-@media (max-width: 768px){
-	.services_page .service_item_name{
-		text-align: center;
+@media (max-width: 768px) {
+	.services_page{
+		padding: 50px 0;
 	}
-	.service-item .serv{
-		width:100%;
-		padding:20px 30px;
+	.service-item:last-child{
+		margin-bottom: 0;
 	}
-	.services_page .service_item_name{
-		font-size: 30px;
+
+    .services_page .service_item_name {
+        text-align: center;
+    }
+    .services_page .service_item_name {
+        font-size: 30px;
+    }
+
+    .services_page p {
+        font-size: 15px;
+        text-align: center;
+    }
+}
+@media (max-width: 767px) {
+
+    .services_page .col-md-5,
+    .services_page .col-md-7 {
+        padding-left: 30px;
+        padding-right: 30px;
 	}
-	.services_page p{
-		font-size: 15px;
-		text-align: center;
+	.service-item .serv {
+        width: 100%;
+        padding: 20px 30px;
+    }
+}
+@media (max-width: 576px) {
+
+    .services_page .row{
+		margin-left: unset;
+		margin-right: unset;
+		width: 100%;
 	}
+	
+	.services_page .col-md-5,
+    .services_page .col-md-7 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }

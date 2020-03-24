@@ -297,7 +297,7 @@ body {
     display: inline-block;
 }
 
-.mainSlider .content .moreButton button {
+.mainSlider .content .moreButton a {
     background: linear-gradient(135deg, #f7e550 50%, #0dff0d);
     color: #0b1d2b;
     border: 0;
@@ -1115,11 +1115,11 @@ footer {
     margin-right: -30px;
 }
 
-.services_page .col-md-5,
+/* .services_page .col-md-5,
 .services_page .col-md-7 {
     padding-left: 30px;
     padding-right: 30px;
-}
+} */
 
 .service-item .serv {
     width: 80%;

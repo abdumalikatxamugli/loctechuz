@@ -1,4 +1,24 @@
-
+$('.mainSlider').owlCarousel({
+    loop: true,
+    autoplay: true,
+    autoplaySpeed: 600,
+    autoplayTimeout: 4000,
+    margin: 0,
+    nav: true,
+    dots: false,
+    navSpeed: 600,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 1
+        },
+        1000: {
+            items: 1
+        }
+    }
+})
 $('.products-slider').owlCarousel({
     loop: true,
     margin: 10,
